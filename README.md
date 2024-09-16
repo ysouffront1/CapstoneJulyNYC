@@ -20,6 +20,5 @@ __Diet__: provides detailed information on participants' dietary intake
 
 __Examination__: contains physical examination of participants such as bmi, height, waist circumference, blood pressure readings, and other assessments.
 
-__Medication__: contain prescription information, amount of medications used, and how frequent the medications are taken
 
 The original dataset can be found here: https://www.kaggle.com/datasets/cdc/national-health-and-nutrition-examination-survey/data 
