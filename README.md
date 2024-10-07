@@ -47,20 +47,39 @@ __Examination__: Physical examination results, including BMI, height, waist circ
 
 ## Methodology
 ### Approach
+The following process was done during this project:
+1. Data Cleaning
+2. Data Preprocessing
+3. Modeling
+4. Model Evaluation 
+
+### Data Cleaning
+1. __Imputation:__  Missing values were imputed using the mean, median or random imputation from observed column values.
+2. __Re-encode Features:__ All features had to be re-encoded and one hot encoded prior to the modeling phase for better feature interpretation. 
+3. __Rename Features:__ All features were renamed in each dataset, and a dictionary was used to map the SEQN or respondent number to each dataset to ensure the same respondents were present all throughout the datasets. 
+
+### Data Preprocessing
+1. __Feature Selection:__ Respondent gender, age, height, weight, education level, cardiovascular illness symptoms, and family history were prioritized in this project.
+2. __Feature Engineering:__ Age bins were created to handle class imbalance, as well as additional features such as "has_angina" and "has_family_history" as Cardiovascular Disease Indicators, and "have_cvd", derived from the one hot encoded features of cardiovascular disease conditions (congestive_heart_failure_Yes, coronary_heart_disease_Yes, heart_attack_Yes, stroke_Yes) as those who already have CVD. 
+
+### Modeling 
+
 The project employs machine learning techniques to predict whether a participant is at risk of cardiovascular disease (CVD) based on the available demographic and cardiovascular symptom data. The following models were evaluated:
 
-__1. Logistic Regression__
+1. __Logistic Regression__
 
-__2. Random Forest__
+2. __Random Forest__
 
-__3. XGBoost__
+3. __XGBoost__
 
-__4. Ensemble Methods__
+4. __Ensemble Methods__
 
-### Final Model
+### Model Evaluation
+
+#### Final Model
 After testing various models, the Random Forest algorithm was chosen for its superior performance in terms of accuracy and balance of precision/recall. The model is optimized using techniques like hyperparameter tuning, SMOTE-ENN sampling and Random Sampling to handle class imbalances.
 
-### Performance Metrics
+#### Performance Metrics
 The performance of the model was evaluated using:
 
 - __Accuracy__
