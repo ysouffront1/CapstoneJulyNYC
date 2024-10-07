@@ -73,6 +73,8 @@ The __Streamlit__ app allows users to input demographic data and assess their ca
 ## Streamlit App
 The cardiovascular risk prediction model has been deployed as a web application using Streamlit. Users can input simple demographic information such as age, sex, cardiovascular history, education, and symptoms to receive a cardiovascular risk assessment.
 
+### Installation Instructions
+
 To run the app locally:
 
 1. Clone this repository:
@@ -88,26 +90,10 @@ To run the app locally:
    streamlit run app.py
    ```
 The application features:
+
 __User Input Fields__: Age, sex, cardiovascular history, education level, smoking history, etc.
+
 __Prediction Output__: Displays the predicted risk of cardiovascular disease.
-
-## Installation Instructions
-To run the project locally, follow these steps on bash:
-
-__1. Clone the repository:__
-
-git clone https://github.com/your-repo/cvd-risk-assessment.git
-cd cvd-risk-assessment
-
-__2. Install the dependencies:__
-
-pip install -r requirements.txt
-Launch the Streamlit app:
-
-__3. Launch the Streamlit app:__
-
-streamlit run app.py
-
 
 ## Future Work
 This project can be further improved by:
