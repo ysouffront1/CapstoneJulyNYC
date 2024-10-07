@@ -1,6 +1,6 @@
 # Cardiovascular Disease Risk Prediction Using NHANES 2013-2014 Data
 ### Project Overview
-This project leverages data from the 2013-2014 NHANES (National Health and Nutrition Examination Survey) dataset to create a predictive model that assesses the cardiovascular risk of individuals aged 20 and above. The primary goal is to develop a practical cardiovascular risk assessment tool that uses only demographic data, such as age, cardiovascular history, symptoms, and education level, as input. This tool is deployed through a Streamlit web application.
+This project leverages data from the 2013-2014 CDC NHANES (National Health and Nutrition Examination Survey) dataset to create a predictive model that assesses the cardiovascular risk of individuals aged 20 and above. The primary goal is to develop a practical cardiovascular risk assessment tool that uses only demographic data, such as age, cardiovascular history, symptoms, and education level, as input. This tool is deployed through a Streamlit web application.
 
 ### Dataset Source
 The dataset used in this project was sourced from [Kaggle](https://www.kaggle.com/datasets/cdc/national-health-and-nutrition-examination-survey/data), which includes the following sub-datasets:
