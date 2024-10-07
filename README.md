@@ -5,23 +5,26 @@ This project leverages data from the 2013-2014 NHANES (National Health and Nutri
 ### Dataset Source
 The dataset used in this project was sourced from Kaggle, which includes the following sub-datasets:
 
-Demographics
-Diet
-Examination
-Labs
-Medications
-Questionnaire
+- Demographics
+- Diet
+- Examination
+- Labs
+- Medications
+- Questionnaire
+  
 The focus was on demographic factors for the final model, but the broader dataset provides comprehensive health information on the survey participants.
 
-### Project Motivation
-Problem Area
+## Project Motivation
+### Problem Area
 Heart disease is the leading cause of death in the United States and globally, affecting men, women, and individuals of various ethnic backgrounds. Early detection of cardiovascular risk can help prevent the onset of heart disease, reduce mortality rates, and improve population health. This project aims to create a machine learning model capable of predicting cardiovascular disease (CVD) risk based on simple, non-invasive demographic factors.
 
 ### The Impact
 Reducing cardiovascular disease-related deaths has profound societal and economic benefits:
 
 __Healthier Workforce__: A healthier population leads to increased productivity and reduced sick days.
+
 __Lower Healthcare Costs__: Early intervention can reduce the need for expensive treatments.
+
 __Global Relevance__: Though the dataset pertains to the U.S., insights and models can be generalized or adapted to other countries with similar health challenges.
 
 ### Data Used
@@ -60,18 +63,15 @@ After testing various models, the Random Forest algorithm was chosen for its sup
 ### Performance Metrics
 The performance of the model was evaluated using:
 
-__Accuracy__
-
-__Precision__
-
-__Recall__
-
-__F1-Score__
+- __Accuracy__
+- __Precision__
+- __Recall__
+- __F1-Score__
 
 The __Streamlit__ app allows users to input demographic data and assess their cardiovascular risk based on the model’s predictions.
 
 ## Streamlit App
-The cardiovascular risk prediction model has been deployed as a web application using Streamlit. Users can input simple demographic information such as age, sex, cardiovascular history, education, and symptoms to receive a cardiovascular risk assessment.
+The cardiovascular risk prediction model has been deployed as a web application using [Streamlit](https://streamlit.io/). Users can input simple demographic information such as age, sex, cardiovascular history, education, and symptoms to receive a cardiovascular risk assessment.
 
 ### Installation Instructions
 
