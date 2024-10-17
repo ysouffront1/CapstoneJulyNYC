@@ -31,7 +31,9 @@ __Global Relevance__: Though the dataset pertains to the U.S., insights and mode
 The NHANES dataset provides rich information about the health of participants, segmented into various categories. For this project, we utilized:
 
 __Demographic Data__: Age, sex, education level, marital status
+
 __Questionnaire__: Cardiovascular history, smoking habits, and symptoms
+
 __Examination Data__: Height, weight, and blood pressure
 
 ### Dataset Descriptions:
