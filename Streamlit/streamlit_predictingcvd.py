@@ -6,6 +6,8 @@ import joblib
 import seaborn as sns 
 import matplotlib.pyplot as plt 
 
+[theme]
+base="light"
 
 
 # Initialize session state for page control
