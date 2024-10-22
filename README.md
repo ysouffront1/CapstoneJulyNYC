@@ -118,19 +118,19 @@ __Prediction Output__: Displays the predicted risk of cardiovascular disease.
 
 ## File Directory Structure 
 
- ``Data``                # Original and cleaned datasets.
+ ``Data``                :  Original and cleaned datasets.
 
- ``Docs``                # Presentation materials and documentation.
+ ``Docs``                :  Presentation materials and documentation.
 
-``Models``               # Trained models for the Streamlit app.
+``Models``               :  Trained models for the Streamlit app.
 
-``Notebooks``            # Jupyter notebooks for data cleaning and modeling.
+``Notebooks``           :  Jupyter notebooks for data cleaning and modeling.
  
-``Streamlit``            # Streamlit app and requirements.
+``Streamlit``            : Streamlit app and requirements.
 
-``README.md``            # This README file.
+``README.md``            :  This README file.
 
-``LICENSE``              # Project license information.
+``LICENSE``              :  Project license information.
 
 
 ## Future Work
