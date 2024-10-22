@@ -24,10 +24,13 @@ def go_back_to_intro():
     st.session_state.page = 'intro'
     st.rerun() # rerun app to go to intro page
 
+primary_color = st.get_option("theme.primaryColor")
+text_color = st.get_option("theme.textColor")
+
 
 # Introduction page
 def introduction_page():
-    st.markdown("<h1 style='text-align: center; color:white;'> Welcome to the Cardiovascular Disease Risk Assessment</h1>",unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color:{text_color};'> Welcome to the Cardiovascular Disease Risk Assessment</h1>",unsafe_allow_html=True)
     st.write("")
     left_co, cent_co,last_co = st.columns(3)
     with cent_co:
