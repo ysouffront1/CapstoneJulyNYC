@@ -83,9 +83,7 @@ def introduction_page():
 def assessment_page():
 
     # Title of the app
-    st.markdown("<h1 style='text-align: center; color:white;'>Cardiovascular Disease Risk Assessment</h1>",unsafe_allow_html=True)
-
-    #st.title('')
+    st.title('Cardiovascular Disease Risk Assessment')
 
 
     # Quick description
