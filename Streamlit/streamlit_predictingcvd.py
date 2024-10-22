@@ -98,7 +98,7 @@ def assessment_page():
     # Load saved models
     import urllib
     model_url = "https://drive.google.com/uc?export=download&id=1JXtOsVR0VrkjwqAF2-oVyXJ5WFRVVAxr"
-    model = joblib.load(urllib.request.urlopen(model_url))
+    response = joblib.load(urllib.request.urlopen(model_url))
     rf_smoteenn_tuned = joblib.load(response)
 
     #rf_smoteenn_tuned = joblib.load('rf_smoteenn_tuned.pkl')
