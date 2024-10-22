@@ -30,7 +30,7 @@ def introduction_page():
     st.write("")
     left_co, cent_co,last_co = st.columns(3)
     with cent_co:
-        st.image("images/intro_image.jpg")
+        st.image("https://cdn3.poz.com/40191_heart-stethoscope-is-000008477896.jpg_1201786e-eb3e-4db0-bc6b-d600b742cd12_x2.jpeg")
         st.write('')  
 
     #creating side by side layout
