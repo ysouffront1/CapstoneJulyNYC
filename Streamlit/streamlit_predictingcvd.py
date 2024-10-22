@@ -96,9 +96,10 @@ def assessment_page():
 
     #### Loading Models
     # Load saved models
-    import os
-    model_path = os.path.join(os.getcwd(), 'rf_smoteenn_tuned.pkl')
-    rf_smoteenn_tuned = joblib.load(model_path)
+    import urllib
+    model_url = https://drive.google.com/file/d/1JXtOsVR0VrkjwqAF2-oVyXJ5WFRVVAxr/view?usp=sharing
+    model = joblib.load(urllib.request.urlopen(model_url))
+
     #rf_smoteenn_tuned = joblib.load('rf_smoteenn_tuned.pkl')
     #xgb_model_smoteenn_tuned = joblib.load('xgb_model_smoteenn_tuned.pkl')
     #xgb_model_adasyn_tuned = joblib.load('xgb_model_adasyn_tuned.pkl')
