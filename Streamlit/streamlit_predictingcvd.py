@@ -104,7 +104,7 @@ def assessment_page():
 
     # Check if model file is present before loading
     try:
-        rf_smoteenn_tuned = joblib.load('rf_smoteenn_tuned.pkl')
+        rf_smoteenn_tuned = joblib.load('Streamlit/rf_smoteenn_tuned.pkl')
     except FileNotFoundError:
         st.error("Model file not found. Make sure 'rf_smoteenn_tuned.pkl' is in the correct directory.")
         return  # Don't proceed if model is not found
