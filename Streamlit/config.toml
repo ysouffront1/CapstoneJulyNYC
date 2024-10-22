@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"  # Light mode background
+textColor = "#000000"        # Light mode text color
+
+[theme.dark]
+backgroundColor = "#0e1117"  # Dark mode background
+textColor = "#ffffff"
