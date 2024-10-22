@@ -6,8 +6,7 @@ import joblib
 import seaborn as sns 
 import matplotlib.pyplot as plt 
 
-[theme]
-base="light"
+
 
 
 # Initialize session state for page control
@@ -84,7 +83,7 @@ def introduction_page():
 def assessment_page():
 
     # Title of the app
-    st.title("Cardiovascular Disease Risk Assessment")
+    st.write('# Cardiovascular Disease Risk Assessment')
 
     # Quick description
     st.write('##### Below is a quick assessment that will determine whether or not you are at risk for cardiovascular disease.')
