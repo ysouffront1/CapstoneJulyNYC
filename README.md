@@ -119,26 +119,20 @@ __Prediction Output__: Displays the predicted risk of cardiovascular disease.
 ## File Directory Structure 
 CapstoneJulyNYC/
 │
-├── Data/                # Stores the original and cleaned datasets.
-│   ├── Original_Data/   # Contains the original NHANES datasets.
-│   └── Clean_Data/    # Contains cleaned datasets used for modeling.
+├── Data/                # Original and cleaned datasets.
 │
-├── Docs/                # Stores presentation materials, reports, or documentation.
+├── docs/                # Presentation materials and documentation.
 │
-├── Models/              # Contains the trained models used in the Streamlit application.
-│   └── rf_smoteenn_tuned.pkl      # The final trained Random Forest model.
+├── models/              # Trained models for the Streamlit app.
 │
-├── Notebooks/           # Contains Jupyter notebooks for data cleaning and modeling.
-│   ├── data_cleaning.ipynb
-│   └── model_training.ipynb
+├── notebooks/           # Jupyter notebooks for data cleaning and modeling.
 │
-├── Streamlit/           # Contains the Streamlit application and its requirements.
-│   ├── streamlit_predictingcvd.py  # The main Streamlit application script.
-│   └── requirements.txt  # List of required packages for the app.
+├── streamlit/           # Streamlit app and requirements.
 │
 ├── README.md            # This README file.
 │
-└── LICENSE              # Contains information about the project's license.
+└── LICENSE              # Project license information.
+
 
 ## Future Work
 This project can be further improved by:
