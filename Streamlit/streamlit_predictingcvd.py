@@ -83,25 +83,10 @@ def introduction_page():
 def assessment_page():
 
     # Title of the app
-    st.title('Cardiovascular Disease Risk Assessment')
+    st.markdown("<h1 style='text-align: center; color:white;'>Cardiovascular Disease Risk Assessment</h1>",unsafe_allow_html=True)
 
-    current_theme = st.get_option("theme")
+    #st.title('')
 
-# Set title color based on the theme
-    if current_theme == "light":
-        st.markdown(
-            """
-            <h1 style='text-align: center; color: black;'>Your App Title</h1>
-            """,
-            unsafe_allow_html=True
-        )
-    else:
-        st.markdown(
-            """
-            <h1 style='text-align: center; color: white;'>Your App Title</h1>
-            """,
-            unsafe_allow_html=True
-        )
 
     # Quick description
     st.write('##### Below is a quick assessment that will determine whether or not you are at risk for cardiovascular disease.')
