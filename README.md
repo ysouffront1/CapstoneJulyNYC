@@ -92,7 +92,7 @@ The performance of the model was evaluated using:
 The __Streamlit__ app allows users to input demographic data and assess their cardiovascular risk based on the model’s predictions.
 
 ## Streamlit App
-The cardiovascular risk prediction model has been deployed as a web application using [Streamlit](https://streamlit.io/). Users can input simple demographic information such as age, sex, cardiovascular history, education, and symptoms to receive a cardiovascular risk assessment.
+The cardiovascular risk prediction model has been deployed as a web application using [Streamlit](https://predictingcvdquestionnaire.streamlit.app/). Users can input simple demographic information such as age, sex, cardiovascular history, education, and symptoms to receive a cardiovascular risk assessment.
 
 ### Installation Instructions
 
