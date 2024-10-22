@@ -97,7 +97,7 @@ def assessment_page():
     #### Loading Models
     # Load saved models 
 
-    rf_smoteenn_tuned = joblib.load('rf_smoteenn_tuned.pkl')
+    rf_smoteenn_tuned = joblib.load('Streamlit/rf_smoteenn_tuned.pkl')
     #xgb_model_smoteenn_tuned = joblib.load('xgb_model_smoteenn_tuned.pkl')
     #xgb_model_adasyn_tuned = joblib.load('xgb_model_adasyn_tuned.pkl')
 
