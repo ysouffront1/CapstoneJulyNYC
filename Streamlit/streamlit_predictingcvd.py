@@ -1,6 +1,5 @@
 ### import libraries
 
-pip install joblib
 import pandas as pd
 import streamlit as st
 import joblib
