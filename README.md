@@ -117,21 +117,20 @@ __User Input Fields__: Age, sex, cardiovascular history, education level, smokin
 __Prediction Output__: Displays the predicted risk of cardiovascular disease.
 
 ## File Directory Structure 
-CapstoneJulyNYC/
-│
-├── Data/                # Original and cleaned datasets.
-│
-├── docs/                # Presentation materials and documentation.
-│
-├── models/              # Trained models for the Streamlit app.
-│
-├── notebooks/           # Jupyter notebooks for data cleaning and modeling.
-│
-├── streamlit/           # Streamlit app and requirements.
-│
-├── README.md            # This README file.
-│
-└── LICENSE              # Project license information.
+
+ ``Data``                # Original and cleaned datasets.
+
+ ``Docs``                # Presentation materials and documentation.
+
+``Models``               # Trained models for the Streamlit app.
+
+``Notebooks``            # Jupyter notebooks for data cleaning and modeling.
+ 
+``Streamlit``            # Streamlit app and requirements.
+
+``README.md``            # This README file.
+
+``LICENSE``              # Project license information.
 
 
 ## Future Work
