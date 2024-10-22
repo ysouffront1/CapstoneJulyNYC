@@ -399,7 +399,7 @@ def assessment_page():
         
         
         # Display age distribution image 
-        st.image('images/age_distribution.png', caption='Age Distribution of People with and without CVD', use_column_width=True)
+        st.image('Streamlit/images/age_distribution.png', caption='Age Distribution of People with and without CVD', use_column_width=True)
 
 
         #st.markdown("<h4 style='text-align: left; color: white;'> Your Risk of CVD is: </h2>", unsafe_allow_html=True)
