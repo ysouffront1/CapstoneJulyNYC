@@ -1,4 +1,5 @@
 streamlit
 joblib
 seaborn
-
+matplotlib.pyplot
+pandas
